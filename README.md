@@ -49,7 +49,7 @@ class KeyurModi:
 🔵 Feb 2026 – Present    AI/ML Engineer Intern @ Piper Sandler (USA)
 │                         ► Financial ML models • FastAPI inference APIs • MLflow monitoring
 │
-🟢 Jun 2025 – Dec 2025   Research Assistant – AI Engineer @ UTSA (Texas)
+🟢 Jan 2025 – Dec 2025   Research Assistant – AI Engineer @ UTSA (Texas)
 │                         ► NLP & transformers • Semantic search • Embedding systems
 │
 🟠 Jun 2022 – Jul 2024   Machine Learning Engineer @ Paytm (India)
