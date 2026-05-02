@@ -34,7 +34,7 @@ Beyond ML, I bring solid software engineering fundamentals — Java & Python bac
 |------|---------|--------|
 | **Research Assistant — AI/ML Engineer** | University of Texas at San Antonio | Jan 2025 — Present |
 | **AI/ML Engineer Intern** | Piper Sandler | May 2025 — Aug 2025 |
-| **ML Engineer / Software Engineer** | Paytm | Jan 2022 — Jul 2024 |
+| **ML Engineer / Software Engineer** | Paytm | Jul 2022 — Jul 2024 |
 | **Software Engineer** | Adit Microsys | Jan 2022 — Jun 2022 |
 
 ---
