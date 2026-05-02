@@ -18,7 +18,7 @@
 
 ### About Me
 
-I'm a Machine Learning & Software Engineer with 2.5+ years of industry experience building production-grade ML systems and backend services across fintech and research environments. Currently completing my **Master's in Computer Science at the University of Texas at San Antonio** (graduating May 2026).
+I'm a Machine Learning & Software Engineer with 3+ years of industry experience building production-grade ML systems and backend services across fintech and research environments. Currently completing my **Master's in Computer Science at the University of Texas at San Antonio** (graduating May 2026).
 
 My core strength is end-to-end ML — from data pipelines and model training to API deployment, monitoring, and drift detection. At **Paytm**, I built fraud detection systems processing millions of transactions. At **Piper Sandler**, I developed financial prediction models with real-time inference APIs. As a **Research Assistant at UTSA**, I work on NLP, semantic search, and trustworthy AI evaluation.
 
