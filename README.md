@@ -1,118 +1,123 @@
-<!-- Header Banner -->
+<!-- Header -->
 <div align="center">
-  
-  ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d47a1&height=230&section=header&text=Keyur%20Modi&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=ML%20Engineer%20%7C%20AI%20Researcher%20%7C%20Data%20Scientist&descSize=18&descAlignY=55&descAlign=50)
 
-  <!-- Typing SVG -->
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=4FC3F7&center=true&vCenter=true&random=false&width=600&lines=Building+Intelligent+ML+Systems+%F0%9F%A7%A0;NLP+%7C+GenAI+%7C+LLMs+%7C+RAG+Pipelines;End-to-End+ML+Lifecycle+Expert;Turning+Data+Into+Actionable+Insights+%F0%9F%93%8A)](https://git.io/typing-svg)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d47a1&height=220&section=header&text=Keyur%20Modi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Engineer%20%E2%80%A2%20Software%20Engineer%20%E2%80%A2%20MS%20CS%20%40%20UTSA&descSize=16&descAlignY=56&descAlign=50)
 
-  <br/>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&random=false&width=550&lines=Machine+Learning+%7C+NLP+%7C+GenAI+%7C+RAG;Software+Engineering+%7C+APIs+%7C+Testing;Scalable+Systems+%7C+Cloud+%7C+MLOps)](https://git.io/typing-svg)
 
-  <!-- Social Badges -->
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/keyurmodi004)
-  [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:modikeyur938@gmail.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/keyur462)
-  [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-9242-6098)
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=keyur462&style=for-the-badge&color=0d47a1&label=PROFILE+VIEWS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/keyurmodi004)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:modikeyur938@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/keyur462)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-9242-6098)
+
+![Profile Views](https://komarev.com/ghpvc/?username=keyur462&style=flat-square&color=0d47a1&label=Profile+Views)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+### About Me
 
-```python
-class KeyurModi:
-    def __init__(self):
-        self.name        = "Keyur Modi"
-        self.role        = "ML / AI Engineer"
-        self.location    = "San Antonio, TX 🇺🇸"
-        self.education   = "MS Computer Science @ UTSA (May 2026)"
-        self.experience  = "2+ years building scalable ML systems"
-        self.interests   = ["NLP", "GenAI", "Fraud Detection", "MLOps"]
+I'm a Machine Learning & Software Engineer with 2.5+ years of industry experience building production-grade ML systems and backend services across fintech and research environments. Currently completing my **Master's in Computer Science at the University of Texas at San Antonio** (graduating May 2026).
 
-    def current_work(self):
-        return "AI/ML Engineer Intern @ Piper Sandler"
+My core strength is end-to-end ML — from data pipelines and model training to API deployment, monitoring, and drift detection. At **Paytm**, I built fraud detection systems processing millions of transactions. At **Piper Sandler**, I developed financial prediction models with real-time inference APIs. As a **Research Assistant at UTSA**, I work on NLP, semantic search, and trustworthy AI evaluation.
 
-    def fun_fact(self):
-        return "I reduced fraud false positives by 20% at Paytm 🎯"
-```
+Beyond ML, I bring solid software engineering fundamentals — Java & Python backend development, REST API design, test automation (JUnit, Pytest, Selenium), CI/CD pipelines, and containerized deployments. I'm always looking for opportunities to solve meaningful problems at the intersection of AI and software engineering.
 
-> *Machine Learning Engineer with 2+ years of experience building and deploying production ML systems across fintech and research. Passionate about end-to-end ML — from data pipelines and model training to deployment, monitoring, and drift detection. Currently pursuing my Master's in CS at UTSA while interning at Piper Sandler.*
+**Currently open to full-time opportunities in ML Engineering, AI/ML, Software Engineering, and Data Science roles.**
 
 ---
 
-## 🏢 Experience Timeline
+### Experience
 
-```
-🔵 Feb 2026 – Present    AI/ML Engineer Intern @ Piper Sandler (USA)
-│                         ► Financial ML models • FastAPI inference APIs • MLflow monitoring
-│
-🟢 Jan 2025 – Dec 2025   Research Assistant – AI Engineer @ UTSA (Texas)
-│                         ► NLP & transformers • Semantic search • Embedding systems
-│
-🟠 Jun 2022 – Jul 2024   Machine Learning Engineer @ Paytm (India)
-                          ► Fraud detection at scale • PySpark pipelines • Docker deployments
-```
+| Role | Company | Period |
+|------|---------|--------|
+| **Research Assistant — AI/ML Engineer** | University of Texas at San Antonio | Jan 2025 — Present |
+| **AI/ML Engineer Intern** | Piper Sandler | May 2025 — Aug 2025 |
+| **ML Engineer / Software Engineer** | Paytm | Jan 2022 — Jul 2024 |
+| **Software Engineer** | Adit Microsys | Jan 2022 — Jun 2022 |
 
 ---
 
-## 🛠️ Tech Stack
+### Tech Stack
 
 <div align="center">
 
-### Languages & Core
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+**Languages**
 
-### Machine Learning & Deep Learning
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge&logo=xgboost&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-### NLP & GenAI
-![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![BERT](https://img.shields.io/badge/BERT-4285F4?style=for-the-badge&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-6B21A8?style=for-the-badge&logoColor=white)
+**Machine Learning & AI**
 
-### Data Engineering
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
-### MLOps & DevOps
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+**NLP & GenAI**
 
-### Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![BERT](https://img.shields.io/badge/BERT-4285F4?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-6B21A8?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Embeddings-0D47A1?style=flat-square)
 
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+**APIs & Backend**
 
-### Visualization & Tools
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6F00?style=flat-square)
+
+**Testing & QA**
+
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-DC382D?style=flat-square)
+![REST Assured](https://img.shields.io/badge/REST_Assured-6DB33F?style=flat-square)
+
+**Data Engineering**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+**DevOps & Cloud**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+
+**Visualization & Tools**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+### Featured Projects
 
 <div align="center">
 
@@ -127,80 +132,75 @@ class KeyurModi:
 </div>
 
 <details>
-<summary>📂 More Projects (from Resume)</summary>
+<summary><b>📁 Additional Project Work</b></summary>
 <br/>
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🔬 **Trustworthy Autonomous AI** | End-to-end evaluation pipelines for model reliability & robustness. Led to research publication. | Python, Scikit-learn, TensorFlow |
-| 🔍 **Semantic Search & Retrieval** | Transformer-based embedding search with vector retrieval and real-time query processing. | Transformers, Embeddings, APIs |
-| ⚙️ **ML Data Pipeline System** | Scalable ETL pipelines with feature engineering and automated preprocessing workflows. | Pandas, SQL, ETL |
-| 📊 **BI Dashboard System** | Interactive Power BI dashboards with DAX measures for KPI tracking and trend analysis. | Power BI, SQL, Python |
+**AI / ML Projects**
+
+| Project | What I Built | Stack |
+|---------|-------------|-------|
+| **Trustworthy Autonomous AI** | End-to-end evaluation pipelines for model robustness and transparency. Published research paper. | Python, Scikit-learn, TensorFlow |
+| **Semantic Search & Retrieval System** | Transformer-based embedding search with vector retrieval and real-time API integration. | Transformers, Embeddings, FastAPI |
+| **ML Data Pipeline System** | Scalable ETL pipelines with automated feature engineering and preprocessing workflows. | Pandas, SQL, PySpark |
+| **BI Dashboard System** | Interactive Power BI dashboards with DAX measures for KPI and trend analysis. | Power BI, SQL, Python |
+
+**Software Engineering Projects**
+
+| Project | What I Built | Stack |
+|---------|-------------|-------|
+| **API Test Automation Framework** | REST API testing framework with data-driven validation and automated reporting. | Java, REST Assured, TestNG |
+| **Selenium Automation Framework** | UI automation framework using Page Object Model with reusable components. | Java, Selenium, TestNG |
+| **CI/CD Test Integration** | Automated test suites integrated into CI/CD pipelines with Docker-based test environments. | Jenkins, GitHub Actions, Docker |
 
 </details>
 
 ---
 
-## 📊 GitHub Stats
+### GitHub Stats
 
 <div align="center">
 
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=keyur462&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=keyur462&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=keyur462&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=keyur462&theme=tokyonight&hide_border=true" />
 
-  <br/>
-
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyur462&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyur462&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
 ---
 
-## 🏅 Certifications
+### Education
+
+| Degree | University | Year |
+|--------|-----------|------|
+| **M.S. Computer Science** | University of Texas at San Antonio, TX | May 2026 |
+| **B.E. Computer Science** | Laxmi Institute of Technology, India | May 2022 |
+
+### Certifications
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Oracle GenAI](https://img.shields.io/badge/Oracle_GenAI_Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Oracle DS](https://img.shields.io/badge/Oracle_Data_Science-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Power BI](https://img.shields.io/badge/Microsoft_Power_BI_Analyst-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![MySQL](https://img.shields.io/badge/Oracle_MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![DevOps](https://img.shields.io/badge/Oracle_DevOps-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Oracle GenAI](https://img.shields.io/badge/Oracle_GenAI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Oracle DS](https://img.shields.io/badge/Oracle_Data_Science-F80000?style=flat-square&logo=oracle&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI_Data_Analyst-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/Oracle_MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 </div>
 
----
+### Publication
 
-## 📄 Publication
-
-📝 **Building Trustworthy Autonomous AI** — Research on model robustness, transparency, and evaluation standards for autonomous AI systems.
-
----
-
-## 🎓 Education
-
-| Degree | University | Location | Year |
-|--------|-----------|----------|------|
-| 🎓 **MS Computer Science** | University of Texas at San Antonio | San Antonio, TX, USA | May 2026 |
-| 🎓 **BE Computer Science** | Laxmi Institute of Technology | Gujarat, India | May 2022 |
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-*I'm always open to collaborating on ML/AI projects, research opportunities, and interesting engineering challenges.*
-
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/keyurmodi004)
-[![Email](https://img.shields.io/badge/Send_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:modikeyur938@gmail.com)
-
-</div>
+**Building Trustworthy Autonomous AI** — Research on model robustness, transparency, and evaluation standards for AI systems.
 
 ---
 
 <div align="center">
 
-  ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d47a1&height=120&section=footer)
+*Open to collaborations, research opportunities, and full-time roles in ML/AI and Software Engineering.*
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/keyurmodi004)
+[![Email](https://img.shields.io/badge/Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:modikeyur938@gmail.com)
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d47a1&height=100&section=footer)
 
 </div>
