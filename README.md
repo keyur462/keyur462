@@ -16,6 +16,7 @@
 
 ---
 
+
 ### About Me
 
 I'm a Machine Learning & Software Engineer with 3+ years of industry experience building production-grade ML systems and backend services across fintech and research environments. Currently completing my **Master's in Computer Science at the University of Texas at San Antonio** (graduating May 2026).
