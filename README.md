@@ -1,296 +1,760 @@
-<!-- ============ HEADER ============ -->
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Keyur Modi — Data Scientist, Machine Learning Engineer, and AI Researcher."
+  >
+  <meta name="author" content="Keyur Modi">
+  <title>Keyur Modi | Data Scientist · ML Engineer · AI Researcher</title>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Keyur%20Modi&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Scientist%20%7C%20ML%20%2F%20DL%20Systems%20%7C%20MS%20CS%20%40%20UTSA&descSize=17&descAlignY=54&descAlign=50" width="100%"/>
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --surface: #111720;
+      --surface-2: #151d28;
+      --border: #263241;
+      --text: #edf2f7;
+      --muted: #9aa8b8;
+      --accent: #4fc3f7;
+      --accent-2: #7c9cff;
+      --max-width: 1120px;
+      --radius: 16px;
+    }
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=4FC3F7&center=true&vCenter=true&width=650&lines=4%2B+Years+Building+Production+ML+Systems;Deep+Learning+%7C+NLP+%7C+LLMs+%7C+MLOps;Turning+Messy+Data+Into+Reliable+Decisions" alt="Typing SVG" />
-</a>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-<br/>
+    html {
+      scroll-behavior: smooth;
+    }
 
-<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://github.com/keyur462"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://orcid.org/0009-0008-9242-6098"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
+    body {
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      background:
+        radial-gradient(circle at 80% 0%, rgba(79, 195, 247, 0.08), transparent 28%),
+        radial-gradient(circle at 10% 20%, rgba(124, 156, 255, 0.06), transparent 25%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-<img src="https://komarev.com/ghpvc/?username=keyur462&style=flat-square&color=2c5364&label=Profile+Views"/>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-</div>
+    .container {
+      width: min(100% - 40px, var(--max-width));
+      margin: auto;
+    }
 
-<br/>
+    header {
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
 
-<!-- ============ ABOUT ============ -->
-## About Me
+    .hero {
+      max-width: 850px;
+      padding: 80px 0;
+    }
 
-I'm a **Data Scientist with 4+ years of experience** designing, evaluating, and deploying machine learning and deep learning systems in production — spanning fintech-adjacent analytics, government-scale data systems, and applied AI research. I'm currently completing my **M.S. in Computer Science at the University of Texas at San Antonio** (May 2026).
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
 
-I work across the **full ML lifecycle** — exploratory data analysis, feature engineering, model training, deployment on AWS/GCP, and post-deployment monitoring for drift and reliability. My core interests sit at the intersection of **deep learning, NLP/LLMs, and trustworthy AI** — building systems that aren't just accurate, but explainable and robust under real-world distribution shifts.
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 1px;
+      background: var(--accent);
+    }
 
-- 🔭 Currently building production ML pipelines and LLM-driven NLP systems at **LogicRain Technologies**
-- 🧪 Researching vector search, anomaly detection, and adversarial robustness as a **Research Assistant at UTSA**
-- 📄 Published researcher on trustworthy AI evaluation — see [Publication](#-publication) below
-- 🌱 Actively exploring: agentic RAG systems, model interpretability at scale, and healthcare decision intelligence
-- 💬 Open to conversations on **ML Engineering, Applied AI, and Data Science** roles
+    h1 {
+      font-size: clamp(3.2rem, 9vw, 6.5rem);
+      line-height: 0.95;
+      letter-spacing: -0.055em;
+      margin-bottom: 28px;
+    }
 
-<br/>
+    .hero-title {
+      font-size: clamp(1.25rem, 3vw, 2rem);
+      color: var(--muted);
+      max-width: 760px;
+      margin-bottom: 28px;
+    }
 
-<!-- ============ EXPERIENCE ============ -->
-## Experience
+    .hero-title strong {
+      color: var(--text);
+    }
 
-<table>
-<tr>
-<td width="140" valign="top"><b>Jul 2026 – Present</b></td>
-<td>
-<b>Data Scientist</b> · LogicRain Technologies Inc<br/>
-Building production churn-prediction and NLP classification systems, deploying low-latency inference services on AWS Lambda/SageMaker, and automating CI/CD + drift-monitoring pipelines that cut release cycles from hours to minutes.
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Jan 2025 – May 2026</b></td>
-<td>
-<b>Research Assistant</b> · University of Texas at San Antonio<br/>
-Built high-dimensional vector search pipelines (PyTorch + FAISS) over 650K+ multimodal records, developed VAE/LSTM-based anomaly detection for time-series signals, and designed adversarial robustness test benches. Also led applied <b>similarity-search research</b> spanning geospatial skyline/ridgeline analysis and biomedical (blood cell) similarity modeling.
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Jan 2022 – Jun 2024</b></td>
-<td>
-<b>Data Scientist Engineer</b> · Adit Microsys Pvt. Ltd.<br/>
-Delivered ML and data-engineering solutions for large-scale enterprise systems — including probabilistic entity resolution across 10M+ records (97.8% match accuracy), automated deduplication pipelines, and forecasting models that reduced reporting turnaround from days to minutes.
-</td>
-</tr>
-</table>
+    .hero-description {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
 
-<br/>
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
 
-<!-- ============ LEADERSHIP ============ -->
-## Leadership & Community
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.9rem;
+      font-weight: 650;
+      transition: 0.2s ease;
+    }
 
-<table>
-<tr>
-<td width="34%" valign="top"><b>🎓 Graduate Grader</b><br/><i>UTSA, Data Science</i></td>
-<td>Graded coursework and supported students in a graduate-level data science course, resolving conceptual doubts in statistics and ML fundamentals.</td>
-</tr>
-<tr>
-<td valign="top"><b>🤝 Core Team Member</b><br/><i>Indian Student Association, UTSA (~2.5 yrs)</i></td>
-<td>Held an organizing role coordinating cultural events (Holi, Diwali, Ganesh Chaturthi), onboarding international students, connecting them with faculty, and helping secure sponsorships that funded student scholarships.</td>
-</tr>
-<tr>
-<td valign="top"><b>❤️ Volunteer & Contributor</b><br/><i>Neal Naimer Center for Nonprofit Leadership, UTSA</i></td>
-<td>Contributed to the <b>Corazon Ministries Rehabilitation & Relief Project</b>, helping connect underserved individuals struggling with addiction to eligible rehabilitation and recovery resources.</td>
-</tr>
-</table>
+    .button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
 
-<br/>
+    .button.primary {
+      background: var(--accent);
+      color: #061018;
+      border-color: var(--accent);
+    }
 
-<!-- ============ TECH STACK ============ -->
-## Tech Stack
+    .button.primary:hover {
+      color: #061018;
+      opacity: 0.9;
+    }
 
-<div align="center">
+    section {
+      padding: 90px 0;
+      border-bottom: 1px solid var(--border);
+    }
 
-**Languages**
-<br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+    .section-heading {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 50px;
+      margin-bottom: 48px;
+    }
 
-**Machine Learning & Deep Learning**
-<br/>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square)
-![SHAP](https://img.shields.io/badge/SHAP-0D47A1?style=flat-square)
+    .section-number {
+      color: var(--accent);
+      font-family: monospace;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+    }
 
-**NLP & GenAI**
-<br/>
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-6B21A8?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-4285F4?style=flat-square)
-![LLM Fine--tuning](https://img.shields.io/badge/LLM_Fine--tuning-0D47A1?style=flat-square)
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.035em;
+    }
 
-**Cloud & MLOps**
-<br/>
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+    .section-intro {
+      color: var(--muted);
+      max-width: 700px;
+      margin-top: 14px;
+    }
 
-**Data Engineering & Databases**
-<br/>
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+    .about {
+      max-width: 820px;
+      margin-left: 310px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
 
-**Visualization & Delivery**
-<br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+    .about p + p {
+      margin-top: 18px;
+    }
 
-</div>
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
 
-<br/>
+    .skill-card {
+      padding: 24px;
+      border: 1px solid var(--border);
+      background: rgba(17, 23, 32, 0.7);
+      border-radius: var(--radius);
+    }
 
-<!-- ============ PROJECTS ============ -->
-## Featured Projects
+    .skill-card h3 {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h4>🔎 <a href="https://github.com/keyur462/smartdocs-rag-chatbot">smartdocs-rag-chatbot</a></h4>
-Intelligent RAG chatbot with LLM integration for grounded document Q&A.
-<br/><sub><b>Python · LLM · RAG</b></sub>
-</td>
-<td width="50%" valign="top">
-<h4>🏥 <a href="https://github.com/keyur462/healthcare-decision-intelligence">healthcare-decision-intelligence</a></h4>
-A unified AI Decision Stack processing healthcare scenarios through 7 reasoning layers — from pattern recognition to chain reasoning — producing auditable, explainable clinical decisions.
-<br/><sub><b>Python · Explainable AI</b></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4>📈 <a href="https://github.com/keyur462/stock-market-analysis">stock-market-analysis</a></h4>
-End-to-end stock market analysis using ML/DL — feature engineering, model comparison, time-series validation, and interactive performance evaluation.
-<br/><sub><b>Python · Time Series · Deep Learning</b></sub>
-</td>
-<td width="50%" valign="top">
-<h4>🗺️ <a href="https://github.com/keyur462/skyline_project">skyline_project</a></h4>
-Spatial similarity search over Skyline polygons using Grid/Quad-tree encoding, Weighted Jaccard similarity, and HNSW indexing (NMSLIB) with Recall@K evaluation at scale.
-<br/><sub><b>Jupyter · Spatial ML · HNSW</b></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4>🕸️ <a href="https://github.com/keyur462/Federated-Machine-Learning">Federated-Machine-Learning</a></h4>
-Federated learning implementation for distributed, privacy-preserving model training across decentralized data sources.
-<br/><sub><b>Jupyter Notebook · Federated Learning</b></sub>
-</td>
-<td width="50%" valign="top">
-<h4>📄 <a href="https://github.com/keyur462/resume_analyzer">resume_analyzer</a></h4>
-AI-based resume analyzer built on AWS for scalable parsing, skill extraction, and candidate-job matching.
-<br/><sub><b>Python · AWS · NLP</b></sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4>🔄 <a href="https://github.com/keyur462/churn_pipeline">churn_pipeline</a></h4>
-End-to-end customer churn prediction pipeline, from feature engineering through model evaluation.
-<br/><sub><b>Python · XGBoost</b></sub>
-</td>
-<td width="50%" valign="top">
-<h4>♟️ <a href="https://github.com/keyur462/Reversi_Game_AI">Reversi_Game_AI</a></h4>
-Reversi game AI combining deep learning models with heuristic-based players to evaluate and optimize gameplay strategy.
-<br/><sub><b>Python · Deep Learning · Game AI</b></sub>
-</td>
-</tr>
-</table>
+    .skill-card p {
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
 
-<details>
-<summary><b>📁 Additional Work (from professional experience)</b></summary>
-<br/>
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
 
-| Project | Description | Stack |
-|---|---|---|
-| **Multimodal Vector Retrieval Engine** | Cross-modal search embedding image + text metadata into a shared vector space; FAISS inverted-file indexing achieving 95.4% top-k accuracy at sub-50ms latency across 500K+ vectors. | Python, PyTorch, FAISS, Docker, Hugging Face |
-| **Model Evaluation & Bias Auditing Suite** | Automated framework auditing tabular/NLP models for feature drift, disparate impact, and prediction stability, with SHAP-based local attribution reporting. | Python, Scikit-learn, SHAP, FastAPI, Docker |
+    .project {
+      display: flex;
+      flex-direction: column;
+      min-height: 300px;
+      padding: 30px;
+      border: 1px solid var(--border);
+      background: linear-gradient(
+        145deg,
+        rgba(21, 29, 40, 0.9),
+        rgba(17, 23, 32, 0.75)
+      );
+      border-radius: var(--radius);
+      transition: 0.25s ease;
+    }
 
-</details>
+    .project:hover {
+      transform: translateY(-5px);
+      border-color: rgba(79, 195, 247, 0.5);
+    }
 
-<br/>
+    .project-index {
+      color: var(--accent);
+      font-family: monospace;
+      font-size: 0.8rem;
+      margin-bottom: 26px;
+    }
 
-<!-- ============ GITHUB STATS ============ -->
-## GitHub Stats
+    .project h3 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
 
-<div align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=keyur462&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=keyur462&theme=tokyonight&hide_border=true"/>
-<br/>
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyur462&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-</div>
+    .project p {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
 
-<br/>
+    .project-meta {
+      margin-top: auto;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
 
-<!-- ============ EDUCATION ============ -->
-## Education
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
 
-<table>
-<tr>
-<td width="80" align="center"><img src="assets/utsa-logo.png" width="60"/></td>
-<td><b>M.S. Computer Science</b> — University of Texas at San Antonio, TX <br/><sub>Aug 2024 – May 2026</sub></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/laxmi-institute-logo.png" width="60"/></td>
-<td><b>B.E. Computer Engineering</b> — Laxmi Institute of Technology, Gujarat, India <br/><sub>Jul 2018 – May 2022</sub></td>
-</tr>
-</table>
+    .tag {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 9px;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-family: monospace;
+    }
 
-<sub>📌 Logo images are in the <code>/assets</code> folder — upload this folder to your repo root alongside the README for them to render.</sub>
+    .project-link {
+      color: var(--accent);
+      white-space: nowrap;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
 
-<br/>
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 34px;
+    }
 
-## Certifications
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      gap: 45px;
+    }
 
-<div align="center">
+    .timeline-label {
+      color: var(--accent);
+      font-family: monospace;
+      font-size: 0.82rem;
+    }
 
-**Cloud, ML & AI**
-<br/>
-![AWS ML Specialty](https://img.shields.io/badge/AWS_ML_Specialty-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![AWS Cloud Practitioner](https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure AI-900](https://img.shields.io/badge/Azure_AI_Fundamentals_(AI--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI_Data_Analyst_Associate-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![OCI Data Science](https://img.shields.io/badge/OCI_Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
-![OCI GenAI](https://img.shields.io/badge/OCI_Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
-![OCI AI Foundations](https://img.shields.io/badge/OCI_AI_Foundations_Associate-F80000?style=flat-square&logo=oracle&logoColor=white)
-![OCI DevOps](https://img.shields.io/badge/OCI_DevOps_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
-![MySQL HeatWave](https://img.shields.io/badge/MySQL_HeatWave_Implementation_Associate-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI_GenAI_Specialization-000000?style=flat-square)
+    .timeline-content h3 {
+      font-size: 1.3rem;
+      margin-bottom: 4px;
+    }
 
-**Finance**
-<br/>
-![Bloomberg Finance Fundamentals](https://img.shields.io/badge/Bloomberg_Finance_Fundamentals-000000?style=flat-square&logo=bloomberg&logoColor=white)
-![Bloomberg Market Concepts](https://img.shields.io/badge/Bloomberg_Market_Concepts-000000?style=flat-square&logo=bloomberg&logoColor=white)
-![Bloomberg ESG](https://img.shields.io/badge/Environmental_Social_Governance-228B22?style=flat-square)
-![Bloomberg Spreadsheet Analysis](https://img.shields.io/badge/Bloomberg_Spreadsheet_Analysis-000000?style=flat-square&logo=bloomberg&logoColor=white)
+    .timeline-content .organization {
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
 
-</div>
+    .timeline-content p {
+      color: var(--muted);
+    }
 
-<br/>
+    .education {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
 
-## 📄 Publication
+    .education-card {
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
 
-**Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software** *(2026)*
-Research on standardized testing protocols, model interpretability using SHAP, and bias mitigation strategies under input distribution shifts in production systems.
+    .education-card .degree {
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-family: monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
 
-🔗 **[Read the full paper](https://www.acigjournal.com/Building-Trustworthy-Autonomous-AI-Essential-Principles-beyond-Traditional-Software,208710,0,2.html)**
+    .education-card h3 {
+      margin: 12px 0 6px;
+      font-size: 1.25rem;
+    }
 
-<br/>
+    .education-card p {
+      color: var(--muted);
+    }
 
-<!-- ============ FOOTER ============ -->
-<div align="center">
+    .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
 
-*Open to full-time roles and research collaborations in Data Science, ML Engineering, and Applied AI.*
+    .certificate {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
 
-<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    .publication {
+      max-width: 850px;
+      padding: 34px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
+    .publication-label {
+      color: var(--accent);
+      font-family: monospace;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
 
-</div>
+    .publication h3 {
+      margin: 12px 0;
+      font-size: 1.5rem;
+    }
+
+    .publication p {
+      color: var(--muted);
+    }
+
+    .publication a {
+      display: inline-block;
+      margin-top: 18px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .contact {
+      text-align: center;
+      max-width: 760px;
+      margin: auto;
+    }
+
+    .contact h2 {
+      margin-bottom: 18px;
+    }
+
+    .contact p {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    footer {
+      padding: 32px 0;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 850px) {
+      .section-heading {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .about {
+        margin-left: 0;
+      }
+
+      .skills,
+      .projects,
+      .education {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: min(100% - 28px, var(--max-width));
+      }
+
+      header {
+        min-height: auto;
+      }
+
+      .hero {
+        padding: 65px 0;
+      }
+
+      section {
+        padding: 65px 0;
+      }
+
+      .project {
+        min-height: auto;
+      }
+
+      .project-meta {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="hero">
+        <div class="eyebrow">Data · Intelligence · Research · Engineering</div>
+
+        <h1>Keyur Modi</h1>
+
+        <p class="hero-title">
+          <strong>Data Scientist</strong> · Machine Learning Engineer · AI Researcher
+        </p>
+
+        <p class="hero-description">
+          I build production machine learning systems and research-driven AI solutions
+          across predictive modeling, deep learning, NLP, generative AI, similarity
+          search, model evaluation, and MLOps. My work spans the full ML lifecycle —
+          from data engineering and experimentation to deployment, monitoring, and
+          optimization. I am particularly interested in building intelligent systems
+          that are scalable, explainable, robust, and useful in real-world environments.
+        </p>
+
+        <div class="links">
+          <a
+            class="button primary"
+            href="https://github.com/keyur462"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            class="button"
+            href="https://www.linkedin.com/in/keyurmodi004"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button"
+            href="mailto:modikeyur938@gmail.com"
+          >
+            Email
+          </a>
+
+          <a
+            class="button"
+            href="https://www.acigjournal.com/Building-Trustworthy-Autonomous-AI-Essential-Principles-beyond-Traditional-Software,208710,0,2.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Research Paper
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-number">01 / ABOUT</div>
+
+          <div>
+            <h2>Engineering intelligence from data.</h2>
+            <p class="section-intro">
+              A technical profile built around applied machine learning,
+              research, and production engineering.
+            </p>
+          </div>
+        </div>
+
+        <div class="about">
+          <p>
+            I am a Data Scientist and Machine Learning Engineer with 4+ years of
+            hands-on experience developing, evaluating, and deploying machine
+            learning models, deep learning systems, statistical solutions, and
+            data-driven applications.
+          </p>
+
+          <p>
+            My technical work covers Python and SQL, supervised and unsupervised
+            learning, gradient boosting, deep learning, NLP, Transformers,
+            LLMs, vector search, time-series modeling, anomaly detection,
+            explainable AI, and cloud-based ML systems.
+          </p>
+
+          <p>
+            Alongside industry experience, I have worked in academic research at
+            the University of Texas at San Antonio on similarity search,
+            multimodal retrieval, anomaly detection, scalable data processing,
+            and trustworthy AI evaluation. I also contribute to teaching,
+            student communities, research initiatives, and community-focused
+            volunteer work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-number">02 / EXPERTISE</div>
+
+          <div>
+            <h2>Technical capabilities.</h2>
+            <p class="section-intro">
+              A combination of modeling depth, software engineering,
+              data infrastructure, and production ML.
+            </p>
+          </div>
+        </div>
+
+        <div class="skills">
+
+          <article class="skill-card">
+            <h3>Machine Learning & Statistical Modeling</h3>
+            <p>
+              Supervised and unsupervised learning, XGBoost, LightGBM,
+              Random Forest, Logistic Regression, feature engineering,
+              model selection, statistical modeling, and evaluation.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Deep Learning & AI</h3>
+            <p>
+              PyTorch, TensorFlow, Keras, neural networks, LSTMs, VAEs,
+              representation learning, deep learning architectures,
+              and intelligent decision systems.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>NLP, LLMs & Generative AI</h3>
+            <p>
+              Transformers, Hugging Face, spaCy, NLTK, LLMs, fine-tuning,
+              prompt engineering, embeddings, semantic retrieval, and RAG.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Similarity & Retrieval</h3>
+            <p>
+              FAISS, HNSW, NMSLIB, vector indexing, multimodal retrieval,
+              similarity search, Jaro-Winkler, graph matching, and
+              large-scale nearest-neighbor systems.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Data Engineering</h3>
+            <p>
+              Pandas, NumPy, SciPy, PySpark, ETL, data pipelines,
+              preprocessing, feature extraction, PostgreSQL, MySQL,
+              MongoDB, and Redis.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>MLOps & Cloud</h3>
+            <p>
+              AWS, SageMaker, Lambda, S3, EC2, CloudWatch, GCP,
+              BigQuery, Vertex AI, Azure AI, Docker, Kubernetes,
+              GitHub Actions, GitLab CI, and Jenkins.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Model Evaluation & Trustworthy AI</h3>
+            <p>
+              SHAP, interpretability, model robustness, bias auditing,
+              distribution-shift analysis, prediction stability,
+              monitoring, and production model validation.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <h3>Analytics & Visualization</h3>
+            <p>
+              Power BI, Tableau, Matplotlib, Seaborn, SQL analytics,
+              KPI development, data exploration, and decision-support
+              dashboards.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-number">03 / SELECTED WORK</div>
+
+          <div>
+            <h2>Projects that turn ideas into systems.</h2>
+            <p class="section-intro">
+              Selected work across AI, retrieval, healthcare intelligence,
+              financial modeling, and applied machine learning.
+            </p>
+          </div>
+        </div>
+
+        <div class="projects">
+
+          <article class="project">
+            <div class="project-index">PROJECT / 01</div>
+
+            <h3>Healthcare Decision Intelligence</h3>
+
+            <p>
+              A unified AI decision stack designed to process healthcare
+              scenarios through seven intelligent layers, producing
+              auditable and explainable decisions across treatment and
+              reasoning workflows.
+            </p>
+
+            <div class="project-meta">
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">AI</span>
+                <span class="tag">Decision Systems</span>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/keyur462/healthcare-decision-intelligence"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository →
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-index">PROJECT / 02</div>
+
+            <h3>Multimodal Vector Retrieval Engine</h3>
+
+            <p>
+              A cross-modal retrieval system embedding image features and
+              textual metadata into a shared vector space, using FAISS
+              indexing for high-performance similarity search across
+              large-scale embeddings.
+            </p>
+
+            <div class="project-meta">
+              <div class="tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">FAISS</span>
+                <span class="tag">Hugging Face</span>
+                <span class="tag">Docker</span>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/keyur462/skyline_project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Repository →
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-index">PROJECT / 03</div>
+
+            <h3>SmartDocs RAG Chatbot</h3
