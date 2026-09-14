@@ -1,200 +1,296 @@
+<!-- ============ HEADER ============ -->
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:091428,50:0A2540,100:0052CC&height=220&section=header&text=Keyur%20Modi&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20Machine%20Learning%20Engineer%20%7C%20Distributed%20Systems&descSize=16&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=230&section=header&text=Keyur%20Modi&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Scientist%20%7C%20ML%20%2F%20DL%20Systems%20%7C%20MS%20CS%20%40%20UTSA&descSize=17&descAlignY=54&descAlign=50" width="100%"/>
 
-<!-- Dynamic Typing Subheading -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Production+ML+%26+Deep+Learning+Architecture;LLMs+%7C+RAG+%7C+High-Dimensional+Vector+Search;Scalable+MLOps+%7C+AWS+Cloud+Inference+%7C+CI%2FCD;Statistical+Modeling+%26+Decision+Intelligence" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=4FC3F7&center=true&vCenter=true&width=650&lines=4%2B+Years+Building+Production+ML+Systems;Deep+Learning+%7C+NLP+%7C+LLMs+%7C+MLOps;Turning+Messy+Data+Into+Reliable+Decisions" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Social Badges -->
-<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-<a href="https://github.com/keyur462"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://orcid.org/0009-0008-9242-6098"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-<a href="https://www.acigjournal.com/Building-Trustworthy-Autonomous-AI-Essential-Principles-beyond-Traditional-Software,208710,0,2.html"><img src="https://img.shields.io/badge/Publication-ACIG_Journal-0A66C2?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Publication"/></a>
+<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/keyur462"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://orcid.org/0009-0008-9242-6098"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"/></a>
 
-<br/>
-<img src="https://komarev.com/ghpvc/?username=keyur462&style=flat-square&color=0052cc&label=Profile+Views" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=keyur462&style=flat-square&color=2c5364&label=Profile+Views"/>
 
 </div>
 
----
+<br/>
 
-### Executive Overview
+<!-- ============ ABOUT ============ -->
+## About Me
 
-Data Scientist with 4+ years of industry and research experience engineering end-to-end machine learning systems, statistical modeling pipelines, and low-latency cloud inference services. Specializing in bridging foundational algorithms with high-availability production infrastructure across predictive modeling, high-dimensional vector search, multimodal embeddings, and MLOps automation.
+I'm a **Data Scientist with 4+ years of experience** designing, evaluating, and deploying machine learning and deep learning systems in production — spanning fintech-adjacent analytics, government-scale data systems, and applied AI research. I'm currently completing my **M.S. in Computer Science at the University of Texas at San Antonio** (May 2026).
 
-* **Industry & Production:** Data Scientist at LogicRain Technologies Inc, architecting real-time ensemble predictors, transformer-based classification models, and Dockerized microservices deployed on AWS Lambda & SageMaker endpoints maintaining sub-120ms p95 latency.
-* **Applied Research & Innovation:** MS in Computer Science graduate from UTSA. Conducted large-scale similarity search research across geospatial polygons and biomedical cell distributions using PyTorch, FAISS (IVF-PQ), and HNSW indexing over 650,000+ multimodal structures.
-* **Publication Track Record:** Author of published research on model robustness, SHAP interpretability protocols, and distribution-shift mitigation in mission-critical autonomous systems.
+I work across the **full ML lifecycle** — exploratory data analysis, feature engineering, model training, deployment on AWS/GCP, and post-deployment monitoring for drift and reliability. My core interests sit at the intersection of **deep learning, NLP/LLMs, and trustworthy AI** — building systems that aren't just accurate, but explainable and robust under real-world distribution shifts.
 
----
+- 🔭 Currently building production ML pipelines and LLM-driven NLP systems at **LogicRain Technologies**
+- 🧪 Researching vector search, anomaly detection, and adversarial robustness as a **Research Assistant at UTSA**
+- 📄 Published researcher on trustworthy AI evaluation — see [Publication](#-publication) below
+- 🌱 Actively exploring: agentic RAG systems, model interpretability at scale, and healthcare decision intelligence
+- 💬 Open to conversations on **ML Engineering, Applied AI, and Data Science** roles
 
-### Technical Proficiency
+<br/>
 
-| Domain | Technologies, Frameworks & Tooling |
-| :--- | :--- |
-| **Languages & Scripting** | Python (FastAPI, Flask), SQL (PostgreSQL, MySQL), R, Bash, C++, JavaScript |
-| **Machine Learning & AI** | PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, Random Forest, SHAP, FAISS, NMSLIB |
-| **NLP & LLM Architectures** | Hugging Face Transformers, LangChain, RAG Systems, Vector Embeddings, spaCy, NLTK |
-| **Data Engineering** | Apache Spark (PySpark), Pandas, NumPy, SciPy, Distributed Batch Pipelines, Automated ETL |
-| **Cloud & MLOps Infrastructure** | AWS (SageMaker, Lambda, S3, EC2, CloudWatch), GCP (BigQuery, Vertex AI), Azure AI, Docker, Kubernetes, CI/CD |
-| **Storage & Caching** | PostgreSQL, MySQL, HeatWave, MongoDB, Redis, Elasticsearch |
-| **Analytics & Business Intelligence** | Power BI (DAX), Tableau, Bloomberg Terminal (BMC, ESG), Seaborn, Matplotlib |
+<!-- ============ EXPERIENCE ============ -->
+## Experience
 
----
+<table>
+<tr>
+<td width="140" valign="top"><b>Jul 2026 – Present</b></td>
+<td>
+<b>Data Scientist</b> · LogicRain Technologies Inc<br/>
+Building production churn-prediction and NLP classification systems, deploying low-latency inference services on AWS Lambda/SageMaker, and automating CI/CD + drift-monitoring pipelines that cut release cycles from hours to minutes.
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Jan 2025 – May 2026</b></td>
+<td>
+<b>Research Assistant</b> · University of Texas at San Antonio<br/>
+Built high-dimensional vector search pipelines (PyTorch + FAISS) over 650K+ multimodal records, developed VAE/LSTM-based anomaly detection for time-series signals, and designed adversarial robustness test benches. Also led applied <b>similarity-search research</b> spanning geospatial skyline/ridgeline analysis and biomedical (blood cell) similarity modeling.
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Jan 2022 – Jun 2024</b></td>
+<td>
+<b>Data Scientist Engineer</b> · Adit Microsys Pvt. Ltd.<br/>
+Delivered ML and data-engineering solutions for large-scale enterprise systems — including probabilistic entity resolution across 10M+ records (97.8% match accuracy), automated deduplication pipelines, and forecasting models that reduced reporting turnaround from days to minutes.
+</td>
+</tr>
+</table>
 
-### Featured Repositories & Engineering Systems
+<br/>
+
+<!-- ============ LEADERSHIP ============ -->
+## Leadership & Community
+
+<table>
+<tr>
+<td width="34%" valign="top"><b>🎓 Graduate Grader</b><br/><i>UTSA, Data Science</i></td>
+<td>Graded coursework and supported students in a graduate-level data science course, resolving conceptual doubts in statistics and ML fundamentals.</td>
+</tr>
+<tr>
+<td valign="top"><b>🤝 Core Team Member</b><br/><i>Indian Student Association, UTSA (~2.5 yrs)</i></td>
+<td>Held an organizing role coordinating cultural events (Holi, Diwali, Ganesh Chaturthi), onboarding international students, connecting them with faculty, and helping secure sponsorships that funded student scholarships.</td>
+</tr>
+<tr>
+<td valign="top"><b>❤️ Volunteer & Contributor</b><br/><i>Neal Naimer Center for Nonprofit Leadership, UTSA</i></td>
+<td>Contributed to the <b>Corazon Ministries Rehabilitation & Relief Project</b>, helping connect underserved individuals struggling with addiction to eligible rehabilitation and recovery resources.</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ TECH STACK ============ -->
+## Tech Stack
 
 <div align="center">
 
-<a href="https://github.com/keyur462/healthcare-decision-intelligence">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=healthcare-decision-intelligence&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
-<a href="https://github.com/keyur462/skyline_project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=skyline_project&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
+**Languages**
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-<a href="https://github.com/keyur462/smartdocs-rag-chatbot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=smartdocs-rag-chatbot&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
-<a href="https://github.com/keyur462/stock-market-analysis">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=stock-market-analysis&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
+**Machine Learning & Deep Learning**
+<br/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-0D47A1?style=flat-square)
 
-<a href="https://github.com/keyur462/churn_pipeline">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=churn_pipeline&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
-<a href="https://github.com/keyur462/resume_analyzer">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=keyur462&repo=resume_analyzer&theme=tokyonight&hide_border=true" width="48%"/>
-</a>
+**NLP & GenAI**
+<br/>
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-6B21A8?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-4285F4?style=flat-square)
+![LLM Fine--tuning](https://img.shields.io/badge/LLM_Fine--tuning-0D47A1?style=flat-square)
+
+**Cloud & MLOps**
+<br/>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+**Data Engineering & Databases**
+<br/>
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Visualization & Delivery**
+<br/>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
+
+<br/>
+
+<!-- ============ PROJECTS ============ -->
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h4>🔎 <a href="https://github.com/keyur462/smartdocs-rag-chatbot">smartdocs-rag-chatbot</a></h4>
+Intelligent RAG chatbot with LLM integration for grounded document Q&A.
+<br/><sub><b>Python · LLM · RAG</b></sub>
+</td>
+<td width="50%" valign="top">
+<h4>🏥 <a href="https://github.com/keyur462/healthcare-decision-intelligence">healthcare-decision-intelligence</a></h4>
+A unified AI Decision Stack processing healthcare scenarios through 7 reasoning layers — from pattern recognition to chain reasoning — producing auditable, explainable clinical decisions.
+<br/><sub><b>Python · Explainable AI</b></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>📈 <a href="https://github.com/keyur462/stock-market-analysis">stock-market-analysis</a></h4>
+End-to-end stock market analysis using ML/DL — feature engineering, model comparison, time-series validation, and interactive performance evaluation.
+<br/><sub><b>Python · Time Series · Deep Learning</b></sub>
+</td>
+<td width="50%" valign="top">
+<h4>🗺️ <a href="https://github.com/keyur462/skyline_project">skyline_project</a></h4>
+Spatial similarity search over Skyline polygons using Grid/Quad-tree encoding, Weighted Jaccard similarity, and HNSW indexing (NMSLIB) with Recall@K evaluation at scale.
+<br/><sub><b>Jupyter · Spatial ML · HNSW</b></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>🕸️ <a href="https://github.com/keyur462/Federated-Machine-Learning">Federated-Machine-Learning</a></h4>
+Federated learning implementation for distributed, privacy-preserving model training across decentralized data sources.
+<br/><sub><b>Jupyter Notebook · Federated Learning</b></sub>
+</td>
+<td width="50%" valign="top">
+<h4>📄 <a href="https://github.com/keyur462/resume_analyzer">resume_analyzer</a></h4>
+AI-based resume analyzer built on AWS for scalable parsing, skill extraction, and candidate-job matching.
+<br/><sub><b>Python · AWS · NLP</b></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>🔄 <a href="https://github.com/keyur462/churn_pipeline">churn_pipeline</a></h4>
+End-to-end customer churn prediction pipeline, from feature engineering through model evaluation.
+<br/><sub><b>Python · XGBoost</b></sub>
+</td>
+<td width="50%" valign="top">
+<h4>♟️ <a href="https://github.com/keyur462/Reversi_Game_AI">Reversi_Game_AI</a></h4>
+Reversi game AI combining deep learning models with heuristic-based players to evaluate and optimize gameplay strategy.
+<br/><sub><b>Python · Deep Learning · Game AI</b></sub>
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>System Architecture & Project Details</b></summary>
+<summary><b>📁 Additional Work (from professional experience)</b></summary>
 <br/>
 
-| System / Repository | Architecture Highlights & Impact | Technical Core |
-| :--- | :--- | :--- |
-| **[Healthcare Decision Intelligence](https://github.com/keyur462/healthcare-decision-intelligence)** | 7-layer AI decision stack translating multimodal clinical inputs into auditable, deterministic reasoning trails with full explainability. | Python, PyTorch, Explainable AI, Chain-of-Thought |
-| **[Spatial Skyline Similarity Engine](https://github.com/keyur462/skyline_project)** | High-dimensional spatial similarity search pipeline using Grid/Quad-tree binning, weighted Jaccard metrics, and HNSW graphs via NMSLIB with Recall@K validation. | Python, NMSLIB, Spatial Indexing, Vector Search |
-| **[SmartDocs RAG Platform](https://github.com/keyur462/smartdocs-rag-chatbot)** | End-to-end Retrieval-Augmented Generation platform utilizing dense document chunking, contextual vector retrievers, and LLM synthesis APIs. | Python, LangChain, FAISS, Hugging Face, FastAPI |
-| **[Quantitative Market Engine](https://github.com/keyur462/stock-market-analysis)** | Production-style time-series forecasting engine integrating technical feature engineering, LSTM/ARIMA pipelines, and walk-forward cross-validation. | Python, PyTorch, Statsmodels, Time-Series Modeling |
-| **[Federated Learning Framework](https://github.com/keyur462/Federated-Machine-Learning)** | Distributed privacy-preserving learning pipeline coordinating edge node parameter aggregation without centralized data migration. | Python, PyTorch, Secure Aggregation |
-| **[Cloud Resume Matcher](https://github.com/keyur462/resume_analyzer)** | Microservice-driven talent intelligence pipeline parsing unstructured candidate data against dense job-description vectors via AWS APIs. | Python, AWS Textract, S3, Spacy, Docker |
-| **[Production Churn Pipeline](https://github.com/keyur462/churn_pipeline)** | End-to-end pipeline implementing cost-sensitive gradient boosting, automated drift alerting via CloudWatch, and real-time inference endpoints. | Python, XGBoost, AWS SageMaker, Docker |
-| **[Reversi Strategic AI](https://github.com/keyur462/Reversi_Game_AI)** | Autonomous game intelligence agent evaluating adversarial game-tree decisions using Alpha-Beta pruning, mobility heuristics, and deep evaluation functions. | Python, Heuristic Search, Minimax Algorithms |
+| Project | Description | Stack |
+|---|---|---|
+| **Multimodal Vector Retrieval Engine** | Cross-modal search embedding image + text metadata into a shared vector space; FAISS inverted-file indexing achieving 95.4% top-k accuracy at sub-50ms latency across 500K+ vectors. | Python, PyTorch, FAISS, Docker, Hugging Face |
+| **Model Evaluation & Bias Auditing Suite** | Automated framework auditing tabular/NLP models for feature drift, disparate impact, and prediction stability, with SHAP-based local attribution reporting. | Python, Scikit-learn, SHAP, FastAPI, Docker |
 
 </details>
 
----
+<br/>
 
-### Research & Publications
+<!-- ============ GITHUB STATS ============ -->
+## GitHub Stats
 
-**[Building Trustworthy Autonomous AI: Essential Principles Beyond Traditional Software](https://www.acigjournal.com/Building-Trustworthy-Autonomous-AI-Essential-Principles-beyond-Traditional-Software,208710,0,2.html)**  
-*Advances in Computing and Intelligent Governance (ACIG), 2026*
+<div align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=keyur462&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=keyur462&theme=tokyonight&hide_border=true"/>
+<br/>
+<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyur462&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+</div>
 
-* Outlined empirical auditing frameworks for autonomous deep learning agents, focusing on adversarial input noise resilience, out-of-distribution drift detection, and algorithmic fairness.
-* Developed standardized SHAP interpretability and demographic parity test benches to prevent silent production performance degradation under dynamic data shifts.
+<br/>
 
----
-
-### Leadership & Civic Impact
-
-* **Executive Core Member — Indian Student Association (ISA), UTSA:** Directed large-scale operational logistics for university-wide flagship cultural conventions (Holi, Diwali, Ganesh Chaturthi) engaging 1,000+ attendees. Secured corporate sponsorships to fund student scholarship grants, directed international student onboarding workshops, and led administrative guidance initiatives.
-* **Project Lead — Corazon Ministries Rehabilitation Relief (Najim Center):** Spearheaded technical and operational outreach workflows linking marginalized individuals experiencing homelessness and addiction with qualified treatment programs, rehabilitation resources, and supportive recovery networks.
-* **Academic Grader & Graduate Mentor — UTSA CS Department:** Mentored 120+ students in foundational and advanced Data Science, conducting technical labs on gradient optimization, cross-validation, vectorization, and clean Python design patterns.
-
----
-
-### Education & Academic Background
+<!-- ============ EDUCATION ============ -->
+## Education
 
 <table>
-  <tr>
-    <td width="100" align="center">
-      <img src="./utsa_logo.png" width="80" alt="UTSA Logo"/>
-    </td>
-    <td>
-      <b>Master of Science in Computer Science</b><br/>
-      <i>The University of Texas at San Antonio (UTSA)</i> • San Antonio, TX<br/>
-      <b>Focus:</b> Machine Learning, Vector Indexing, Statistical Evaluation, Cloud Architecture
-    </td>
-  </tr>
-  <tr>
-    <td width="100" align="center">
-      <img src="./lit_logo.png" width="80" alt="LIT Logo"/>
-    </td>
-    <td>
-      <b>Bachelor of Engineering in Computer Engineering</b><br/>
-      <i>Laxmi Institute of Technology (LIT)</i> • Gujarat, India<br/>
-      <b>Focus:</b> Distributed Computing, Relational Database Engineering, Applied Algorithms
-    </td>
-  </tr>
+<tr>
+<td width="80" align="center"><img src="assets/utsa-logo.png" width="60"/></td>
+<td><b>M.S. Computer Science</b> — University of Texas at San Antonio, TX <br/><sub>Aug 2024 – May 2026</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/laxmi-institute-logo.png" width="60"/></td>
+<td><b>B.E. Computer Engineering</b> — Laxmi Institute of Technology, Gujarat, India <br/><sub>Jul 2018 – May 2022</sub></td>
+</tr>
 </table>
 
-> *Note: Save your uploaded logo images in your GitHub repository root as `utsa_logo.png` and `lit_logo.png` (or update the file paths above).*
+<sub>📌 Logo images are in the <code>/assets</code> folder — upload this folder to your repo root alongside the README for them to render.</sub>
 
----
+<br/>
 
-### Professional Credentials
+## Certifications
 
-**Cloud, Machine Learning & AI Engineering**
-<div align="left">
-  <img src="https://img.shields.io/badge/AWS-Machine_Learning_Specialty-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS MLS"/>
-  <img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS CCP"/>
-  <img src="https://img.shields.io/badge/Azure-AI_Fundamentals_(AI--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure AI"/>
-  <img src="https://img.shields.io/badge/Power_BI-Data_Analyst_Associate-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/DeepLearning.AI-Generative_AI_Specialization-00A67E?style=flat-square&logo=coursera&logoColor=white" alt="DeepLearning.AI"/>
+<div align="center">
+
+**Cloud, ML & AI**
+<br/>
+![AWS ML Specialty](https://img.shields.io/badge/AWS_ML_Specialty-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS Cloud Practitioner](https://img.shields.io/badge/AWS_Cloud_Practitioner-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure AI-900](https://img.shields.io/badge/Azure_AI_Fundamentals_(AI--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI_Data_Analyst_Associate-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![OCI Data Science](https://img.shields.io/badge/OCI_Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
+![OCI GenAI](https://img.shields.io/badge/OCI_Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
+![OCI AI Foundations](https://img.shields.io/badge/OCI_AI_Foundations_Associate-F80000?style=flat-square&logo=oracle&logoColor=white)
+![OCI DevOps](https://img.shields.io/badge/OCI_DevOps_Professional-F80000?style=flat-square&logo=oracle&logoColor=white)
+![MySQL HeatWave](https://img.shields.io/badge/MySQL_HeatWave_Implementation_Associate-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI_GenAI_Specialization-000000?style=flat-square)
+
+**Finance**
+<br/>
+![Bloomberg Finance Fundamentals](https://img.shields.io/badge/Bloomberg_Finance_Fundamentals-000000?style=flat-square&logo=bloomberg&logoColor=white)
+![Bloomberg Market Concepts](https://img.shields.io/badge/Bloomberg_Market_Concepts-000000?style=flat-square&logo=bloomberg&logoColor=white)
+![Bloomberg ESG](https://img.shields.io/badge/Environmental_Social_Governance-228B22?style=flat-square)
+![Bloomberg Spreadsheet Analysis](https://img.shields.io/badge/Bloomberg_Spreadsheet_Analysis-000000?style=flat-square&logo=bloomberg&logoColor=white)
+
 </div>
 
 <br/>
 
-**Oracle Cloud Infrastructure (OCI)**
-<div align="left">
-  <img src="https://img.shields.io/badge/Oracle-OCI_Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white" alt="OCI DS"/>
-  <img src="https://img.shields.io/badge/Oracle-OCI_Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white" alt="OCI GenAI"/>
-  <img src="https://img.shields.io/badge/Oracle-OCI_AI_Foundations_Associate-F80000?style=flat-square&logo=oracle&logoColor=white" alt="OCI AI Found"/>
-  <img src="https://img.shields.io/badge/Oracle-MySQL_HeatWave_Implementation-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL HeatWave"/>
-  <img src="https://img.shields.io/badge/Oracle-OCI_DevOps_Professional-F80000?style=flat-square&logo=oracle&logoColor=white" alt="OCI DevOps"/>
-</div>
+## 📄 Publication
+
+**Building Trustworthy Autonomous AI: Essential Principles beyond Traditional Software** *(2026)*
+Research on standardized testing protocols, model interpretability using SHAP, and bias mitigation strategies under input distribution shifts in production systems.
+
+🔗 **[Read the full paper](https://www.acigjournal.com/Building-Trustworthy-Autonomous-AI-Essential-Principles-beyond-Traditional-Software,208710,0,2.html)**
 
 <br/>
 
-**Financial Intelligence & Market Systems**
-<div align="left">
-  <img src="https://img.shields.io/badge/Bloomberg-Market_Concepts_(BMC)-FF7700?style=flat-square" alt="BMC"/>
-  <img src="https://img.shields.io/badge/Bloomberg-Finance_Fundamentals-FF7700?style=flat-square" alt="BFF"/>
-  <img src="https://img.shields.io/badge/Bloomberg-ESG_Certificate-2E7D32?style=flat-square" alt="ESG"/>
-  <img src="https://img.shields.io/badge/Bloomberg-Spreadsheet_Analysis-FF7700?style=flat-square" alt="Spreadsheet"/>
-</div>
-
----
-
-### GitHub Activity & Code Cadence
-
+<!-- ============ FOOTER ============ -->
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=keyur462&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=keyur462&theme=tokyonight&hide_border=true" />
+*Open to full-time roles and research collaborations in Data Science, ML Engineering, and Applied AI.*
 
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keyur462&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-</div>
-
----
-
-<div align="center">
-
-*Open to Data Science, Machine Learning Engineering, and Applied Research collaborations.*
-
-<a href="https://linkedin.com/in/keyurmodi004"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:keyurmodi004@gmail.com"><img src="https://img.shields.io/badge/Direct_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:091428,50:0A2540,100:0052CC&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
 
 </div>
